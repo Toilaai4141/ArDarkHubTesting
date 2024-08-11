@@ -6,14 +6,14 @@ local Window = Fluent:CreateWindow({
     Title = "Anh 3 Hub | ".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.. "",
     SubTitle = " | Free ",
     TabWidth = 160,
-    Size = UDim2.fromOffset(450, 300),
+    Size = UDim2.fromOffset(450, 400),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
     MinimizeKey = Enum.KeyCode.F15
 })
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }),
-    Main2 = Window:AddTab({ Title = "Mai5n", Icon = "home" }),
+    Main2 = Window:AddTab({ Title = "Mai5n", Icon = "" }),
     Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
     Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
     Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
